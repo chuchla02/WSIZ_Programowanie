@@ -29,10 +29,10 @@
                     </div>
             </section>
     </section>
-    <br>
     <section class="aboutMe">
         <section class="aboutMeHeader">
-            <h1 style="color:white; text-shad">Kilka słów o mnie...</h1>
+            <h1 class="h1Header">Kilka słów o mnie...</h1>
+            <div class="underline"></div> <br>
         </section>
         <section class="aboutMeText">
             <p>Jestem absolwentem Zespołu Szkół Elektronicznych w Rzeszowie, które ukończyłem z wyróżnieniem. <br> W wolnych chwilach lubie czytać książki, słuchać muzyki, odkrywać nowe smaki. <br> Lubię podróżować po świecie.</p>
@@ -41,8 +41,10 @@
     <br>
     <section class="myFilms">
         <section class="myFilmsHeader">
-            Moje ulubione seriale
+            <h1 class="h2Header">Moje ulubione seriale</h1>
+            <div class="underline2"></div>
         </section>
+        <div style="display: flex; margin-top: 36px;">
         <section class="myFilmsText">
             <ul>
                 <li>Gra o Tron</li>
@@ -50,18 +52,25 @@
                 <li>Payback</li>
             </ul>
         </section>
+        <section class="myFilmsImg">
+            <img src="tron.jpg" height="auto" width="300px">
+            <img src="last.jpg" height="auto" width="300px">
+            <img src="payback.jpg" height="auto" width="300px">
+        </section>
+        </div>
     </section>
     <br>
     <section class="learningCourse">
         <section class="learningCourseHeader">
-            Moja ścieżka nauki
+            <div class="h1Header">Moja ścieżka nauki</div>
+            <div class="underline"></div> <br> <br>
         </section>
         <section class="learningCourseTable">
             <table>
                 <tbody>
                 <tr>
-                <td>Data</td>
-                <td>Szkoła</td>
+                <td><b>Data</b></td>
+                <td><b>Szkoła</b></td>
                 </tr>
                 <tr>
                 <td>2022-obecnie</td>
@@ -82,30 +91,27 @@
     <br>
     <section class="emptyTable">
         <section class="emptyTableHeader">
-            Pusta tabelka
+            <div class="h2Header"><b>Pusta Tabelka</b></div>
+            <div class="underline2"></div> <br> <br>
         </section>
         <section class="emptyTableTable">
             <table>
                 <tbody>
                 <tr>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                </tr>
-                <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td rowspan="2">&nbsp;</td>
                 <td>&nbsp;</td>
                 </tr>
                 <tr>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
                 </tr>
                 <tr>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td rowspan="2" colspan="3">&nbsp;</td>
+                </tr>
+                <tr>
+                <td colspan="3">&nbsp;</td>
                 </tr>
                 <tr>
                 <td>&nbsp;</td>
@@ -118,14 +124,16 @@
     </section>
     <br>
     <section class="formHeader">
-        <b>Your news from</b><br>
+        <div class="h1Header">Formularz</div>
+        <div class="underline"></div> <br> <br>
+        <b>Your news from</b><br> 
         <form action="" method="GET">
             <label>Name</label> <input type="text"> <br>
             <label>Email:</label> <input type="text"> <br>
             <label>Do you want  to get news daily? </label> <input type="checkbox"> <br>
             <label>Do you want to get 10% discount? </label> <input type="radio"> <br>
-            <label>Select first news day</label> <input type="date"> <br>
-            <input type="button" value="Subscribe!">
+            <label>Select first news day</label> <input type="date"> <br> <br>
+            <input type="button" value="Subscribe!" class="button">
         </form>
     </section>
     <footer>&copy; 2023 Kacper Chuchla</footer>
