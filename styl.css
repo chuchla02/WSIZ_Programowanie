@@ -74,12 +74,13 @@ table, th, td {
 
 .homePageText {
     margin-right: 400px;
-    background-color: white;
+    background-color: gainsboro;
     width: 20vw;
     height: 30vw;
     text-align: center;
     box-shadow: 2px 2px 5px black;
     border-radius: 25px;
+    opacity: 0.85;
     
 }
 
